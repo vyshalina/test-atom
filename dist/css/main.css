@@ -984,7 +984,6 @@ header.header {
   padding-bottom: 25px;
   margin-bottom: 30px;
   border-bottom: 1px solid #e6e6e6;
-  background: #ccc;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1028,7 +1027,7 @@ header.header {
     line-height: 32px;
     margin-bottom: 13px; }
     .main-news_last section h3 a {
-      color: #ff0000;
+      color: #000;
       font-weight: 800;
       display: inline-block; }
       .main-news_last section h3 a:hover {
