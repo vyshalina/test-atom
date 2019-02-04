@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, p {color: $main-dark;}
   color: transparent;
 }
 .main-title {
-	color: $f-main_light; @include font-type($main-font, 20px, 24px, 0); text-transform: uppercase; font-weight: 800;
+	color: green; @include font-type($main-font, 20px, 24px, 0); text-transform: uppercase; font-weight: 800;
 	width: 100%; padding-bottom: 15px;  margin-bottom: 30px;
 	border-bottom: 1px solid $main-border-color;
 	@include respond-from(md){font-size: 18px;}
@@ -653,7 +653,7 @@ header.header {
 				flex-shrink: 0;
 				margin-right: 30px; width: 100%;
 				img {
-					width: 170px; margin-bottom: 15px; float: left; margin-right: 15px; 
+					width: 170px; margin-bottom: 15px; float: left; margin-right: 15px;
 				}
 				figcaption {
 					color: $f-main_light;
