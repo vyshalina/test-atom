@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	//= tpl/head.html
+<body>
+	<!--[if lt IE 10]>
+	<p class="browsehappy">Вы используете <strong>УСТАРЕВШИЙ Internet Explorer</strong> браузер. Пожалуйста, <a href="http://browsehappy.com/">обновите ваш Браузер</a> чтобы увидеть больше возможностей на сайтах!</p>
+	<![endif]-->
+
+	<!-- Preloader  -->
+	<div class="preloader"></div>
+
+	<!-- Application -->
+	<div class="app">
+
+	//= tpl/main-menu.html
+	//= tpl/header.html
+
+
+		<section class="wrapp_main-content">
+
+			<div class="container">
+				<div class="row">
+					<div class="col col-lg-12 content">
+						<h2 class="main-title">last news</h2>
+						//= tpl/news/main-news_last.html
+					</div>
+
+					<!-- <div class="col col-lg-4 order-2 order-lg-1">
+						<aside class="aside">
+							<figure class="aside-banner aside-banner_first"><img src="img/banners/banner_370x280.png" alt=""></figure>
+
+							//= tpl/aside/aside-tabs.html
+
+							<figure class="aside-banner aside-banner_second"><img src="img/banners/banner_370x280.png" alt=""></figure>
+
+							//= tpl/aside/aside-product.html
+
+							//= tpl/aside/aside-persons.html
+
+							//= tpl/aside/aside-guide.html
+
+							<figure class="aside-banner aside-banner_third aside-last"><img src="img/banners/banner_370x280.png" alt=""></figure>
+						</aside> -->
+					</div>
+					<div class="col col-md-12 order-1 order-lg-2 mb40 p-md0">
+						<h2 class="main-title">Events</h2>
+						//= tpl/main_events.html
+
+					</div>
+				</div>
+			</div>
+			//= tpl/main-content_banners.html
+		</section>
+
+
+
+		//= tpl/footer.html
+
+	</div>
+
+	<!-- Plugins -->
+	<div class="popup"></div>
+
+	<!-- scripts -->
+	<script type="text/javascript" src="js/libs.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

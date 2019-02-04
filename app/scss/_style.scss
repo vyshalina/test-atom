@@ -1,0 +1,19 @@
+//Подключаем шрифты из Гугла
+.app {
+	min-width: 320px;
+	overflow-x: hidden;
+	background: #ffffff;
+}
+@include respond-from (xl) {
+	.container {max-width: 1200px;}
+}
+@include respond-from (md) {
+	.header .container {padding: 0;}
+}
+
+figure {margin: 0;}
+ul, ol {margin-bottom: 0;}
+
+
+
+

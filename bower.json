@@ -1,0 +1,22 @@
+{
+  "name": "template_of_vysotskaya",
+  "description": "my_base_template",
+  "main": "",
+  "authors": [
+    "Vysotskaya_Halina"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize-scss": "^3.0.3",
+    "jScrollPane": "jscrollpane#^2.2.1"
+  }
+}
