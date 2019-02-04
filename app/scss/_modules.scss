@@ -648,7 +648,7 @@ header.header {
 		.wrapp_main-news_last {}
 		.main-news_last {
 			display: flex; align-items: flex-start; padding-bottom: 25px;	margin-bottom: 30px;
-			border-bottom: 1px solid $main-border-color; background: #ccc; flex-direction: column;
+			border-bottom: 1px solid $main-border-color; flex-direction: column;
 			figure {
 				flex-shrink: 0;
 				margin-right: 30px; width: 100%;
@@ -676,7 +676,7 @@ header.header {
 					font-size: 28px; line-height: 32px;
 					margin-bottom: 13px;
 					a {
-						color: #ff0000; font-weight: 800;
+						color: #000; font-weight: 800;
 						display: inline-block;
 						@extend .gradient-text; @extend .hover-effect;
 						&:hover {color: transparent;}
